@@ -4,9 +4,9 @@ html{
     color: #333;
 }
 body{
-    background-image:url(https://c0.wallpaperflare.com/preview/742/447/595/business-information-accounting-application.jpg);
+    background-image:  url(https://c0.wallpaperflare.com/preview/742/447/595/business-information-accounting-application.jpg);
     margin: 30px 50px;
-   background-size:contain;
+    background-size: cover;
 }
 img{
     max-width: 100%;
@@ -39,7 +39,7 @@ img{
 }
 .main-con{
 display: grid;
-grid-template-columns: 1fr 1fr;
+grid-template-columns:  1fr;
 grid-gap : 20px;
 }
 footer {
@@ -93,6 +93,13 @@ border: 5px black;
   background-color: #04AA6D;
   color: white;
 }
+#trFoter{
+    padding: 10px !important;
+    text-align: left !important;
+    background-color: #04AA6D !important;
+    color: white !important;
+}
+
 #employt img{
     width: 50px;
     height: 50px;
@@ -100,6 +107,7 @@ border: 5px black;
 }
 #employt{
 width: 100%;
+
 }
 
 .add-person {
@@ -144,4 +152,16 @@ select{
 footer samp{
     color: red;
     
+}
+.dwonload{
+    border-radius: 10px;
+    width: 100%;
+    height: 40px;
+    background-color: #04AA6D;
+    font-size: 16px;
+
+}
+.dwonload:hover{
+    background-color: rgb(247, 247, 244);
+    color: black;
 }

@@ -1,51 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/style.css">
-    <script src="/app.js"></script>
+    <link rel="stylesheet" href="/acount.css">
+    <script src="/accounting.js"></script>
 </head>
+
 <body>
-    <header>
-<h1>Wellcome To my Website</h1>
-<div class="nav">
-    <ul>
-        <a href="/index.html">Home</a>
-        <a href="/accounting.html">Accounting</a>
-    
+    <div class="wrapper">
+        <nav class="main-nav">
+            <ul>
+                <li>
+                    <a href="/index.html">Home</a>
+                </li>
+                <li><a href="/accounting.html">acount</a></li>
+                <li><a href="">about</a></li>
+                <li><a href="">Services</a></li>
+            </ul>
+        </nav>
 
-</div>
-    </header>
-    <main>
-<img src="https://www.tpa-group.com/wp-content/uploads/sites/5/2018/01/TPA-Service-Accounting.jpg" alt="">
-<!-- <div class="con">
-    <table id="employt">
-        <tbody id="table">
-            <tr>
-                <th id="id">Employee ID	</th>
-                <th id="fullName">Full Name</th>
-                <th id="dep">Department</th>
-                <th id="level">Level</th>
-                <th id="img">Image</th>
-                <th id="salary">Salary</th>
-            </tr>
-        </tbody>
-       
-       
-    </table>
-</div> -->
+        <section class="main-con">
 
-    </main>
-    <footer>
-<h2>&copy; this site made by eng -mohammed saqer</h2>
+            <div class="table">
+                <table id="employt">
+                    <tbody id="table">
+                        <tr>
+                            <th id="id">Department Name</th>
 
-   <a href="https://github.com/">Github</a> 
-   <a  class="e" href="mohammedsaqerjo#gmail.com">Email</a>
 
-    </footer>
+                            <th id="fullName">Number of employees</th>
+                            <th id="dep">Total salary</th>
+                            <th id="level">Average salary</th>
+
+
+                        </tr>
+                        <tr>
+                            <td>Development</td>
+                            <td id="Developmentn">0</td>
+
+                            <td id="Developmentt">0</td>
+
+                            <td id="Developmenta">0</td>
+                        </tr>
+                        <tr>
+                            <td>Administration</td>
+                            <td id="Administrationn">0</td>
+
+                            <td id="Administrationt">0</td>
+
+                            <td id="Administrationa">0</td>
+
+                        </tr>
+                        <tr>
+                            <td id="p">Marketing</td>
+                            <td id="Marketingn">0</td>
+
+                            <td id="Marketingt">0</td>
+
+                            <td id="Marketinga">0</td>
+
+
+
+                        </tr>
+                        <tr>
+                            <td>Finance</td>
+                            <td id="Financen">0</td>
+
+                            <td id="Financet">0</td>
+
+                            <td id="Financea">0</td>
+
+
+
+                        </tr>
+                    
+                        <tr id="trFoter"> 
+                            <td>InFormation:</td>
+                            <td id="infon">0</td>
+
+                            <td id="infot">0</td>
+
+                            <td id="infoa">0</td>
+
+
+
+                        </tr>
+                    
+                    
+                    </tbody>
+                </table>
+
+            </div>
+
+            
+
+<button onclick="exportData()" class="dwonload">
+    Download list
+</button>
+        </section>
+        <section id="card" class="card">
+            <!-- <div class="card1">
+                <img src="/assest/card.png" alt="">
+                <p>fullName : no data</p>
+                <p>Department : no data</p>
+                <p>Salary : no data</p>
+            </div> -->
+        </section>
+
+        <footer>
+            <h1>&copy; THIS SITE MADE BY <samp>ENG.MHM'D SAQR</samp></h1>
+            <a href="" class="info">
+                emial
+            </a>
+            <a href="" class="info">
+                github
+            </a>
+        </footer>
+
+        <!-- ----------end -->
+    </div>
+
 </body>
 
 </html>
