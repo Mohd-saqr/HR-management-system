@@ -67,7 +67,7 @@ employ.prototype.Salaryc = function () {
 
 // }
 function geId() {
-    let ran = Math.floor(Math.random() * 100)
+    let ran = Math.floor(Math.random() * 10000)
     return ran
 }
 
