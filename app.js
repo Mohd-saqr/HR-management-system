@@ -8,13 +8,17 @@ window.addEventListener('load', function () {
         let fullname = event.target.Fullname.value
         let Departmentid = event.target.Departmentid.value
         let Levelid = event.target.Levelid.value
-
+    
         let id = geId()
         let p = new employ(id, fullname, Departmentid, Levelid)
         add(p)
     });
     read()
 })
+
+
+
+
 
 function employ(idv, Fullnamev, Departmentv, Levelv, Imagev, Salaryv) {
     this.id = idv
@@ -57,11 +61,7 @@ employ.prototype.Salaryc = function () {
 // const p7=new employ(1006,"Hadi Ahmad","Finance","Mid-Senior");
 
 
-// window.onload=(obj) =>{
-//     add(obj)
 
-
-// }
 // function handel(event){
 
 
@@ -106,6 +106,7 @@ function add(obj) {
     let jsonArray = JSON.stringify(person);
     newarr.push(jsonArray)
     localStorage.setItem(obj.id, newarr);
+    newarr=[]
    
 
 }
@@ -167,9 +168,6 @@ for (var i = 0; i < localStorage.length; i++) {
     }
     
     
-
-
-
 
 
 
