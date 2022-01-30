@@ -19,8 +19,14 @@ window.addEventListener('load', function () {
     var infot = document.getElementById('infot')
     var infoa = document.getElementById('infoa')
     var table = document.getElementById("employt");
-    read()
+   
+    
 })
+window.onload = function() {
+  if(localStorage.length!=0){
+      read()
+    }
+}
 
 function read() {
   let n =0
@@ -92,7 +98,9 @@ function read() {
   totalSalary=total2 +total5+total8+total11
   infot.textContent = "Total Salary :  " + totalSalary
   infon.textContent= "Total employer  : "  +total
-  avgSalary =totalSalary/total
+  avgSalary =total7=parseFloat(totalSalary/total)
+ 
+
   infoa.textContent=  "Avareg Salary  : "+avgSalary
  }
     
