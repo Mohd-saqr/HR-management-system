@@ -123,7 +123,7 @@ employ.prototype.addPhoto = function () {
     let Card = document.getElementById('card')
     let o = this.Salaryc()
     let ifo = `<div class="card1">
-  <img src="/assest/card.png" alt="">
+  <img src="./assest/card.png" alt="">
   <p>Name: ${this.Fullname} - ID: ${this.id}
   </p>
   <p>Development: ${this.Department} - Level: ${this.Level}</p>
@@ -151,7 +151,7 @@ for (var i = 0; i < localStorage.length; i++) {
         let Card = document.getElementById('card')
         
         let ifo = `<div class="card1">
-      <img src="/assest/card.png" alt="">
+      <img src="./assest/card.png" alt="">
       <p>Name: ${obect.fn} - ID: ${key}
       </p>
       <p>Development: ${obect.de} - Level: ${obect.le}</p>
