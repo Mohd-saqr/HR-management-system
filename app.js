@@ -151,7 +151,7 @@ for (var i = 0; i < localStorage.length; i++) {
         let Card = document.getElementById('card')
         
         let ifo = `<div class="card1">
-      <img src="/assest/card.png" alt="">
+      <img src="/HR-management-system/assest/card.png" alt="">
       <p>Name: ${obect.fn} - ID: ${key}
       </p>
       <p>Development: ${obect.de} - Level: ${obect.le}</p>
